@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Shopping Cart</title>
+<link rel="stylesheet" href="day39.css">
+</head>
+
+<body>
+
+<h1>Smart Shopping Cart</h1>
+
+<!-- Search -->
+<input type="text" id="search" placeholder="Search Product">
+
+<!-- Category -->
+<select id="category">
+    <option value="All">All</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Stationery">Stationery</option>
+    <option value="Accessories">Accessories</option>
+</select>
+
+<hr>
+
+<!-- Products -->
+<h2>Products</h2>
+<div id="products"></div>
+
+<hr>
+
+<!-- Cart -->
+<h2>Shopping Cart</h2>
+
+<table border="1" cellpadding="10">
+<thead>
+<tr>
+<th>Name</th>
+<th>Price</th>
+<th>Qty</th>
+<th>Total</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="cartItems"></tbody>
+</table>
+
+<h3>Total Items : <span id="totalItems">0</span></h3>
+<h3>Total Price : ₹<span id="totalPrice">0</span></h3>
+
+<hr>
+<hr>
+<div id="invoice"></div>
+
+<script src="day-39.js"></script>
+
+</body>
+</html>
+
